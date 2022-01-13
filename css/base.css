@@ -1,0 +1,40 @@
+     :root {
+        --white-color: #fff;
+        --border-color: #dbdbdb;
+        --text-color: #666;
+        --hover-color: #f65e39;
+        --primary-color: #333;
+        --header-height: 80px;
+    }
+    
+    a {
+        text-decoration: none !important;
+    }
+    
+    a:hover {
+        color: var(--hover-color) !important;
+    }
+    
+    .header {
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .header-85 {}
+    
+    footer {
+        align-items: center;
+        width: 85%;
+        margin: auto;
+    }
+    
+    .body-app {
+        align-items: center;
+        width: 85%;
+        margin: auto;
+    }
+    
+    .item-UserManual {
+        width: calc(100% / 5);
+    }
